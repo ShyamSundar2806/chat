@@ -1,0 +1,50 @@
+<div class="container">
+    <div class="app">
+        <div class="header">
+            <i class="fa fa-telegram" id="fa1" style="font-size:48px ; color:#ADD8E6 ;"></i>
+            
+            <div class="faf">
+                <i class="fa fa-search"  id="fa" style="font-size:25px ; color: #ADD8E6;"></i>
+            <i class="fa fa-ellipsis-v" id="fa" style="font-size:25px ; color: #ADD8E6;"></i></div>
+        </div>
+        
+        <div class="features">
+            <h1 class="text" style="font-size: 25px; color: black;">Telegram</h1>
+            
+         
+        </div>
+        <div class="chats">
+        </div>
+        <div class="chat" (click)="arun()">
+            <div class="chatdp">
+                <img [src]="arundp" width="60" height="60">
+                
+            </div>
+           <div class="name">
+            <h3>Muthu</h3>
+           
+           </div>
+         
+        </div>
+        <div class="chat" (click)="habib()">
+            <div class="chatdp">
+                <img [src]="habibdp" width="60" height="60">
+            </div>
+           <div class="name">
+            <h3>shyam</h3>
+            
+           </div>
+         
+        
+    </div>
+    </div>
+    <div class="othercomp">
+        <div *ngIf="Arun">
+            <app-shyamphone></app-shyamphone>
+        </div>
+        <div *ngIf="Habib">
+             <app-arunphone></app-arunphone>
+        </div>
+
+    </div>
+</div>

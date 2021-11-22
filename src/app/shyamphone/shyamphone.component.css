@@ -1,0 +1,83 @@
+.header{
+    background-color: #ADD8E6;
+   padding-left: 10px;
+   height: 80px;
+   
+   
+  }
+ 
+  .heading p, h3{
+      margin: 0;
+      padding-left:10px;
+  }
+  input{
+      width: 40%;
+      height: 30PX;
+      margin-left: 25px;
+      bottom: 100px;
+    position: fixed;
+    bottom:0;
+    border-radius: 30px;
+    background-color: #ADD8E6;
+  
+    
+      
+  }
+  .headerinfo img{
+      border-radius: 50%;
+  }
+  .message{
+      background-color: #ADD8E6;
+      padding: 5px;
+      margin-top: 5px;
+   
+      color: black;
+      width: 350px;
+      margin-left: 250px;
+      border-radius: 15px;
+  
+  }
+  .message1{
+    background-color: #ADD8E6;
+    padding: 5px;
+    margin-top: 5px;
+    color: black;
+    width: 350px;
+    border-radius: 15px;
+    
+    
+  }
+  .time{
+    font-size: 10px;
+    color: black;
+  }
+  .headerinfo{
+    display: flex;
+    padding-top: 10px;
+}
+  #icon{
+      height: 35px;
+      width: 4%;
+       position: fixed;
+      bottom: 0;
+      margin-top:15px;
+      margin-left: 39%;
+      
+     
+  }
+  .chat{
+    overflow:scroll;
+    height: 420px;
+    overflow-x: hidden;
+    background-image: url("../../assets/img.jpg");
+}
+#fa{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.fa-video-camera{
+   margin-left:400px;
+   font-size:30px;
+   margin-top:-60px;
+}
+
